@@ -1,0 +1,26 @@
+# === Additions for this project ===
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Triton
+.triton_cache/
+triton_cache/
+
+# Profiling
+*.ncu-rep
+*.nsys-rep
+*.qdrep
+ncu_output/
+
+# Runtime-generated CUDA source
+generated/
+tmp/
+*.tmp.cu
+
+# IDE
+.vscode/
+.idea/
