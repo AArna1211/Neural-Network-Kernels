@@ -1,0 +1,23 @@
+# Core
+torch==2.3.0
+triton==2.3.0
+numpy==1.26.4
+
+# CUDA Python bindings (optional but useful)
+cuda-python==12.4.0
+
+# Testing
+pytest==8.2.0
+pytest-benchmark==4.0.0
+
+# Profiling / analysis
+matplotlib==3.9.0
+pandas==2.2.2
+
+# Utilities
+einops==0.8.0
+tqdm==4.66.4
+
+# Code quality
+black==24.4.2
+ruff==0.4.4
