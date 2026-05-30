@@ -35,7 +35,7 @@ source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
-3. Run the activation tests (requires CUDA + Triton):
+3. Run the activation tests (requires CUDA + Triton):https://www.linkedin.com/in/ankitabandyopadhyay/
 
 ```bash
 pytest tests/test_activations.py -v
